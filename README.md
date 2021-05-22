@@ -6,14 +6,24 @@ Bagian pembelajaran mesin dari project capstone bangkit tim `uwuwu` -> `RangRang
 
 ## To Do
 
-1. Membuat model menggunakan `tensorflow`<br>
+1. Mencari dataset untuk `color detection`
+2. Membuat model menggunakan `tensorflow`<br>
    Model yang harus di buat:
 
-   1. Object detection model
-   2. Color detection model
-2. Convert Model ke `TFLite`
-3. Merancang skema dan ekosistem saat model di deploy di aplikasi<br>
+   1. color detection model
+3. Convert Model ke `TFLite`
+4. Merancang skema dan ekosistem saat model di deploy di aplikasi<br>
    Kalau bisa sistemnya sudah di buat agar anak android tinggal ngurus UIny.
+
+## Update on Object Detection Model
+
+1. Kayaknya modelnya udah gk perlu di train lagi pake data `coco` karena emang udah di sediain model objetc detection dari tensorflownya yang udah di latih sebelumnya di data itu.
+2. Tinggal ubah bentuknya jadi `.tflite` supaya lebih ringkas baik size nya dan biar bisa di deploy di android
+3. Cuman untuk model object detection perlu perlakuan khusus buat ngubah jadi `.tflite, bisa di baca [di sini](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tf2.md)
+
+## Update on Color Detection Model
+
+1. Perlu cari dataset yang mengandung benda dan warnanya sebagai label dari benda tsb
    
 ## Sumber Bacaan
 
