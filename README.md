@@ -20,10 +20,12 @@ Bagian pembelajaran mesin dari project capstone bangkit tim `uwuwu` -> `RangRang
 1. Kayaknya modelnya udah gk perlu di train lagi pake data `coco` karena emang udah di sediain model objetc detection dari tensorflownya yang udah di latih sebelumnya di data itu.
 2. Tinggal ubah bentuknya jadi `.tflite` supaya lebih ringkas baik size nya dan biar bisa di deploy di android
 3. Cuman untuk model object detection perlu perlakuan khusus buat ngubah jadi `.tflite, bisa di baca [di sini](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tf2.md)
+4. Evaluate label dari model `ssd-mobilenet-v2`. Labelnya bisa dilihat [di sini](https://gist.github.com/aallan/fbdf008cffd1e08a619ad11a02b74fa8)
 
 ## Update on Color Detection Model
 
-1. Perlu cari dataset yang mengandung benda dan warnanya sebagai label dari benda tsb
+1. Perlu cari dataset yang mengandung benda dan warnanya sebagai label dari benda tsb.<br>
+   Kalau jeleknya gak nemu datanya di internet berarti kita cari sendiri datanya.
    
 ## Sumber Bacaan
 
