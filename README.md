@@ -35,7 +35,8 @@ Bagian pembelajaran mesin dari project capstone bangkit tim `uwuwu` -> `RangRang
 1. Transfer Learning Object detection model - [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
 2. [Running TF2 Detection API Models on mobile](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tf2.md)
 3. [Real-time Object Detection using SSD MobileNet V2 on Video Streams](https://heartbeat.fritz.ai/real-time-object-detection-using-ssd-mobilenet-v2-on-video-streams-3bfc1577399c)
-4. dll
+4. [color detection](https://towardsdatascience.com/image-color-identification-with-machine-learning-and-image-processing-using-python-f3dd0606bdca)
+5. [color detection 2](https://towardsdatascience.com/color-identification-in-images-machine-learning-application-b26e770c4c71)
 
 ## Note
 
