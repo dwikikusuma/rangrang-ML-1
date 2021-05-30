@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>WhatsApp Image 2021-05-30 at 00.41.39 (2).jpeg</filename>
+	<path>C:\Users\Wahyu Setianto\Desktop\TensorFlow\models\workspace\training_demo\images\test\WhatsApp Image 2021-05-30 at 00.41.39 (2).jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>590</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>axe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>209</xmin>
+			<ymin>335</ymin>
+			<xmax>412</xmax>
+			<ymax>816</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -2,29 +2,30 @@
 
 Bagian pembelajaran mesin dari project capstone bangkit tim `uwuwu` -> `RangRang`
 
-![Karena belum ada logo jadi anggap aja ada logonya :v]()
+![Logo](assets/logo.jpeg)
 
 ## To Do
 
-1. Mencari dataset untuk `color detection`
+1. Mencari data untuk `object detection` & `color detection`
 2. Membuat model menggunakan `tensorflow`<br>
    Model yang harus di buat:
-
-   1. color detection model
+   1. object detection model
+   2. color detection model
 3. Convert Model ke `TFLite`
 4. Merancang skema dan ekosistem saat model di deploy di aplikasi<br>
    Kalau bisa sistemnya sudah di buat agar anak android tinggal ngurus UIny.
 
 ## Update on Object Detection Model
 
-1. Kayaknya modelnya udah gk perlu di train lagi pake data `coco` karena emang udah di sediain model objetc detection dari tensorflownya yang udah di latih sebelumnya di data itu.
-2. Tinggal ubah bentuknya jadi `.tflite` supaya lebih ringkas baik size nya dan biar bisa di deploy di android
-3. Cuman untuk model object detection perlu perlakuan khusus buat ngubah jadi `.tflite, bisa di baca [di sini](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tf2.md)
-4. Evaluate label dari model `ssd-mobilenet-v2`. Labelnya bisa dilihat [di sini](https://gist.github.com/aallan/fbdf008cffd1e08a619ad11a02b74fa8)
-5. link google colab [ssd mobilenet v2](https://colab.research.google.com/drive/1Ja64uMfznUTYkf2aDoeT3nSKJzVG66Kq?usp=sharing)
+1. Karena harus ada custom trainingnya maka model akan di fine tune dengan dataset baru menggunakan tensorflow object detection library
+2. link google colab [ssd mobilenet v2](https://colab.research.google.com/drive/1Ja64uMfznUTYkf2aDoeT3nSKJzVG66Kq?usp=sharing)
+3. link google colab 2 [RangRang-ML](https://colab.research.google.com/drive/1y35rdQ02BWiMvyiHE-5zA9kQg8yCnZCC?usp=sharing)
+
 ### Note
+
 - dia ngedetect nya general banget kaya kursi,tv,potted plant
 - kalo mau nambha lebel kayanya tinggal masukin di label index terus di train deh kemaren nonotn di sini [youtube](https://www.youtube.com/watch?v=K0eDKO13O_s)
+
 ## Update on Color Detection Model
 
 1. Perlu cari dataset yang mengandung benda dan warnanya sebagai label dari benda tsb.<br>
@@ -32,14 +33,27 @@ Bagian pembelajaran mesin dari project capstone bangkit tim `uwuwu` -> `RangRang
    
 ## Sumber Bacaan
 
-1. Transfer Learning Object detection model - [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
-2. [Running TF2 Detection API Models on mobile](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tf2.md)
-3. [Real-time Object Detection using SSD MobileNet V2 on Video Streams](https://heartbeat.fritz.ai/real-time-object-detection-using-ssd-mobilenet-v2-on-video-streams-3bfc1577399c)
-4. [color detection](https://towardsdatascience.com/image-color-identification-with-machine-learning-and-image-processing-using-python-f3dd0606bdca)
-5. [color detection 2](https://towardsdatascience.com/color-identification-in-images-machine-learning-application-b26e770c4c71)
+1. [Object Detection API with TensorFlow 2](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md)
+2. [Training Custom Object Detector](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html)
+3. Transfer Learning Object detection model - [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
+4. [Running TF2 Detection API Models on mobile](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tf2.md)
+5. [Real-time Object Detection using SSD MobileNet V2 on Video Streams](https://heartbeat.fritz.ai/real-time-object-detection-using-ssd-mobilenet-v2-on-video-streams-3bfc1577399c)
+6. [color detection](https://towardsdatascience.com/image-color-identification-with-machine-learning-and-image-processing-using-python-f3dd0606bdca)
+7. [color detection 2](https://towardsdatascience.com/color-identification-in-images-machine-learning-application-b26e770c4c71)
 
-## Note
+### Image Downloader
 
-1. Tentuin transfer learning yang bakal di pake. -> `SSD Mobilenet` kayaknya bagus sih.
-2. Buat model lewat transfer learning dan di train di publik dataset macem COCO dan semacemnya perlu di pilah dulu datanya berdasarkan labelnya, apakah object itu perlu ato enggak di masukkin ke dalam model.
-3. Saat di deploy di android perlu pikirin apakah realtime detection atau ambil gambar terlebih dahulu lewat metode panorama lalu di lakukan deteksi.
+Download image dari google image dengan query yang bisa di atur di `workspace\training_demo\scripts\query.json` dengan cara
+
+1. Install `google-image-downloader` library
+   ```
+   git clone https://github.com/Joeclinton1/google-images-download.git
+   cd google-images-download 
+   python setup.py install
+   ```
+2. Run `image_downloader.py`
+   ```
+   python workspace/training_demo/scripts/image_downloader.py
+   ```
+
+Setelah itu hasil download akan terdapat pada folder `downloads`
