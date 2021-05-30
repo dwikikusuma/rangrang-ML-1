@@ -2,7 +2,7 @@
 
 Bagian pembelajaran mesin dari project capstone bangkit tim `uwuwu` -> `RangRang`
 
-![Karena belum ada logo jadi anggap aja ada logonya :v]()
+![Logo](assets/logo.jpeg)
 
 ## To Do
 
