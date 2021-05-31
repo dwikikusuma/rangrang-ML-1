@@ -57,3 +57,11 @@ Download image dari google image dengan query yang bisa di atur di `workspace\tr
    ```
 
 Setelah itu hasil download akan terdapat pada folder `downloads`
+
+**Note**
+
+Untuk jumlah `limit > 100` download `chromedriver` [di sini](https://sites.google.com/a/chromium.org/chromedriver/downloads) lalu extract pada suatu folder. Lalu run `image_downloader.py` dengan argumen `-c`. Contoh
+
+```
+python workspace/training_demo/scripts/image_downloader.py -c C:/tools/chromedriver/chromedriver.exe
+```
