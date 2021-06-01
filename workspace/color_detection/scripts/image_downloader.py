@@ -21,5 +21,5 @@ if __name__ == '__main__':
             arguments['chromedriver'] = args.chromedriver
         else:
             raise KeyError('Jika limit > 100 harus menspesifikasikan chromedriver. Lihat README')
-    #print(arguments)
+    
     download(arguments)

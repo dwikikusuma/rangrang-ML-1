@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>103.jpeg</filename>
-	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\training_demo\images\103.jpeg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\103.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>meaj</name>
+		<name>meja</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -69,30 +69,6 @@
 			<ymin>259</ymin>
 			<xmax>1051</xmax>
 			<ymax>605</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cake</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>617</xmin>
-			<ymin>428</ymin>
-			<xmax>730</xmax>
-			<ymax>467</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cake</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>605</xmin>
-			<ymin>533</ymin>
-			<xmax>745</xmax>
-			<ymax>572</ymax>
 		</bndbox>
 	</object>
 	<object>

@@ -108,18 +108,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>tisu</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1731</xmin>
-			<ymin>1568</ymin>
-			<xmax>1987</xmax>
-			<ymax>1732</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>buku</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
