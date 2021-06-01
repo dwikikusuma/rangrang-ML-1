@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>201.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\workspace\training_demo\images\201.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\201.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -36,30 +36,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>lampu</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>585</xmin>
-			<ymin>3</ymin>
-			<xmax>681</xmax>
-			<ymax>233</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>lampu</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>912</xmin>
-			<ymin>1</ymin>
-			<xmax>1061</xmax>
-			<ymax>118</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>meja</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -74,12 +50,12 @@
 	<object>
 		<name>meja</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>736</xmin>
-			<ymin>772</ymin>
-			<xmax>1280</xmax>
+			<xmin>712</xmin>
+			<ymin>751</ymin>
+			<xmax>1279</xmax>
 			<ymax>941</ymax>
 		</bndbox>
 	</object>
@@ -117,6 +93,174 @@
 			<ymin>506</ymin>
 			<xmax>1254</xmax>
 			<ymax>572</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>206</xmin>
+			<ymin>602</ymin>
+			<xmax>294</xmax>
+			<ymax>668</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>287</xmin>
+			<ymin>610</ymin>
+			<xmax>342</xmax>
+			<ymax>668</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>382</xmin>
+			<ymin>573</ymin>
+			<xmax>462</xmax>
+			<ymax>653</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>463</xmin>
+			<ymin>572</ymin>
+			<xmax>531</xmax>
+			<ymax>647</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>527</xmin>
+			<ymin>576</ymin>
+			<xmax>594</xmax>
+			<ymax>646</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>594</xmin>
+			<ymin>577</ymin>
+			<xmax>632</xmax>
+			<ymax>634</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>646</xmin>
+			<ymin>561</ymin>
+			<xmax>716</xmax>
+			<ymax>629</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>718</xmin>
+			<ymin>558</ymin>
+			<xmax>759</xmax>
+			<ymax>629</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>790</xmin>
+			<ymin>565</ymin>
+			<xmax>849</xmax>
+			<ymax>618</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>906</xmin>
+			<ymin>567</ymin>
+			<xmax>970</xmax>
+			<ymax>637</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>958</xmin>
+			<ymin>568</ymin>
+			<xmax>1035</xmax>
+			<ymax>648</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1042</xmin>
+			<ymin>590</ymin>
+			<xmax>1169</xmax>
+			<ymax>671</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1172</xmin>
+			<ymin>593</ymin>
+			<xmax>1247</xmax>
+			<ymax>683</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>lampu</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>358</xmin>
+			<ymin>393</ymin>
+			<xmax>398</xmax>
+			<ymax>441</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>148.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\workspace\training_demo\images\148.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\148.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -30,7 +30,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>872</xmin>
-			<ymin>1</ymin>
+			<ymin>42</ymin>
 			<xmax>1080</xmax>
 			<ymax>299</ymax>
 		</bndbox>
@@ -77,22 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>504</xmin>
-			<ymin>718</ymin>
-			<xmax>644</xmax>
-			<ymax>882</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>gelas</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>408</xmin>
-			<ymin>690</ymin>
-			<xmax>504</xmax>
-			<ymax>805</ymax>
+			<xmin>506</xmin>
+			<ymin>734</ymin>
+			<xmax>635</xmax>
+			<ymax>859</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -129,6 +117,18 @@
 			<ymin>602</ymin>
 			<xmax>739</xmax>
 			<ymax>693</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>gelas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>475</xmin>
+			<ymin>667</ymin>
+			<xmax>516</xmax>
+			<ymax>707</ymax>
 		</bndbox>
 	</object>
 </annotation>

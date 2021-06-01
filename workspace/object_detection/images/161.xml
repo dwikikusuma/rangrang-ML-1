@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>161.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\workspace\training_demo\images\161.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\161.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -42,7 +42,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>3</xmin>
-			<ymin>416</ymin>
+			<ymin>406</ymin>
 			<xmax>284</xmax>
 			<ymax>731</ymax>
 		</bndbox>
@@ -96,15 +96,75 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>lampu</name>
+		<name>bantal</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>428</xmin>
-			<ymin>6</ymin>
-			<xmax>683</xmax>
-			<ymax>232</ymax>
+			<xmin>323</xmin>
+			<ymin>437</ymin>
+			<xmax>407</xmax>
+			<ymax>482</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>408</xmin>
+			<ymin>431</ymin>
+			<xmax>491</xmax>
+			<ymax>477</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>493</xmin>
+			<ymin>424</ymin>
+			<xmax>579</xmax>
+			<ymax>475</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>meja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>354</xmin>
+			<ymin>531</ymin>
+			<xmax>776</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>811</xmin>
+			<ymin>451</ymin>
+			<xmax>879</xmax>
+			<ymax>508</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>896</xmin>
+			<ymin>467</ymin>
+			<xmax>953</xmax>
+			<ymax>522</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>181.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\workspace\training_demo\images\181.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\181.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -79,20 +79,80 @@
 		<bndbox>
 			<xmin>681</xmin>
 			<ymin>313</ymin>
-			<xmax>752</xmax>
-			<ymax>385</ymax>
+			<xmax>754</xmax>
+			<ymax>409</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>lampu</name>
+		<name>bantal</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>479</xmin>
-			<ymin>5</ymin>
-			<xmax>550</xmax>
-			<ymax>137</ymax>
+			<xmin>812</xmin>
+			<ymin>492</ymin>
+			<xmax>953</xmax>
+			<ymax>639</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>765</xmin>
+			<ymin>467</ymin>
+			<xmax>883</xmax>
+			<ymax>580</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>buku</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>457</xmin>
+			<ymin>577</ymin>
+			<xmax>584</xmax>
+			<ymax>630</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>gelas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>627</xmin>
+			<ymin>695</ymin>
+			<xmax>705</xmax>
+			<ymax>775</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>gelas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>470</xmin>
+			<ymin>388</ymin>
+			<xmax>504</xmax>
+			<ymax>415</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>lukisan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>512</ymin>
+			<xmax>106</xmax>
+			<ymax>619</ymax>
 		</bndbox>
 	</object>
 </annotation>

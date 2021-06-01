@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>191.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\workspace\training_demo\images\191.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\191.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,42 +11,6 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>person</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>304</xmin>
-			<ymin>119</ymin>
-			<xmax>493</xmax>
-			<ymax>450</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>person</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>937</xmin>
-			<ymin>214</ymin>
-			<xmax>1118</xmax>
-			<ymax>622</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>person</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>712</xmin>
-			<ymin>385</ymin>
-			<xmax>857</xmax>
-			<ymax>658</ymax>
-		</bndbox>
-	</object>
 	<object>
 		<name>sova</name>
 		<pose>Unspecified</pose>
@@ -105,6 +69,30 @@
 			<ymin>33</ymin>
 			<xmax>340</xmax>
 			<ymax>108</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tv</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>377</xmin>
+			<ymin>1</ymin>
+			<xmax>707</xmax>
+			<ymax>93</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>buku</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>30</xmin>
+			<ymin>567</ymin>
+			<xmax>97</xmax>
+			<ymax>604</ymax>
 		</bndbox>
 	</object>
 </annotation>

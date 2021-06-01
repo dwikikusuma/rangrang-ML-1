@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>198.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\workspace\training_demo\images\198.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\198.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,90 @@
 			<ymin>460</ymin>
 			<xmax>975</xmax>
 			<ymax>615</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>foto</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>208</xmin>
+			<ymin>486</ymin>
+			<xmax>244</xmax>
+			<ymax>535</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>foto</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>234</xmin>
+			<ymin>473</ymin>
+			<xmax>285</xmax>
+			<ymax>523</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>434</xmin>
+			<ymin>418</ymin>
+			<xmax>506</xmax>
+			<ymax>507</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1050</xmin>
+			<ymin>448</ymin>
+			<xmax>1158</xmax>
+			<ymax>569</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>647</xmin>
+			<ymin>406</ymin>
+			<xmax>722</xmax>
+			<ymax>499</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>716</xmin>
+			<ymin>407</ymin>
+			<xmax>772</xmax>
+			<ymax>499</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1211</xmin>
+			<ymin>493</ymin>
+			<xmax>1291</xmax>
+			<ymax>622</ymax>
 		</bndbox>
 	</object>
 </annotation>

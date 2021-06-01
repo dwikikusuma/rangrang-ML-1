@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>66.jpeg</filename>
-	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\training_demo\images\66.jpeg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\66.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>731</ymin>
 			<xmax>757</xmax>
 			<ymax>761</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>jam dinding</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>109</xmin>
+			<ymin>15</ymin>
+			<xmax>264</xmax>
+			<ymax>249</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>184.jpeg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\workspace\training_demo\images\184.jpeg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\184.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -84,18 +84,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>lampu</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>406</xmin>
-			<ymin>3</ymin>
-			<xmax>547</xmax>
-			<ymax>102</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>tanaman</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -129,6 +117,42 @@
 			<ymin>393</ymin>
 			<xmax>166</xmax>
 			<ymax>455</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>lukisan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>425</xmin>
+			<ymin>65</ymin>
+			<xmax>640</xmax>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>333</xmin>
+			<ymin>497</ymin>
+			<xmax>448</xmax>
+			<ymax>603</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bantal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>617</xmin>
+			<ymin>484</ymin>
+			<xmax>718</xmax>
+			<ymax>582</ymax>
 		</bndbox>
 	</object>
 </annotation>

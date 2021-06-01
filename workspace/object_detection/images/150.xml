@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>150.jpeg</filename>
-	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\training_demo\images\150.jpeg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\150.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -189,6 +189,18 @@
 			<ymin>149</ymin>
 			<xmax>1727</xmax>
 			<ymax>371</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>gelas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>190</xmin>
+			<ymin>963</ymin>
+			<xmax>270</xmax>
+			<ymax>1029</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>129.jpg</filename>
-	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\training_demo\images\129.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\129.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -57,18 +57,6 @@
 			<ymin>502</ymin>
 			<xmax>759</xmax>
 			<ymax>681</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>tanaman</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>299</xmin>
-			<ymin>205</ymin>
-			<xmax>410</xmax>
-			<ymax>355</ymax>
 		</bndbox>
 	</object>
 	<object>

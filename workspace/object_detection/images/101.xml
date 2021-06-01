@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>101.jpg</filename>
-	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\training_demo\images\101.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\object_detection\images\101.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -33,18 +33,6 @@
 			<ymin>619</ymin>
 			<xmax>934</xmax>
 			<ymax>948</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>kursi</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3</xmin>
-			<ymin>877</ymin>
-			<xmax>365</xmax>
-			<ymax>1000</ymax>
 		</bndbox>
 	</object>
 	<object>
