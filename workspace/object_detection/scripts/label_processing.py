@@ -12,7 +12,7 @@ def make_labelmap(path, export_dir):
     
     with open(os.path.join(export_dir, 'label_map.pbtxt'), 'w') as w:
         for i, label in enumerate(labels):
-            w.writelines('item {\n    id: ' + str(i + 1) +  '\n    name: ' + label + '\n}\n\n')
+            w.writelines('item {\n    id: ' + str(i + 1) +  "\n    name: '" + label + "'\n}\n\n")
     print(f'[INFO] label_map.pbtxt exported to {export_dir}')
 
 def counter(path):

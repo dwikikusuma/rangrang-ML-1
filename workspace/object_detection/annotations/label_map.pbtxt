@@ -1,60 +1,60 @@
 item {
     id: 1
-    name: foto
+    name: 'foto'
 }
 
 item {
     id: 2
-    name: bantal
+    name: 'bantal'
 }
 
 item {
     id: 3
-    name: tv
+    name: 'tv'
 }
 
 item {
     id: 4
-    name: tanaman
+    name: 'tanaman'
 }
 
 item {
     id: 5
-    name: sova
+    name: 'sova'
 }
 
 item {
     id: 6
-    name: lampu
+    name: 'lampu'
 }
 
 item {
     id: 7
-    name: meja
+    name: 'meja'
 }
 
 item {
     id: 8
-    name: lukisan
+    name: 'lukisan'
 }
 
 item {
     id: 9
-    name: buku
+    name: 'buku'
 }
 
 item {
     id: 10
-    name: gelas
+    name: 'gelas'
 }
 
 item {
     id: 11
-    name: kursi
+    name: 'kursi'
 }
 
 item {
     id: 12
-    name: jam dinding
+    name: 'jam dinding'
 }
 
