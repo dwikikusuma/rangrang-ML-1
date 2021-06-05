@@ -1,7 +1,7 @@
 <annotation>
-	<folder>tmp</folder>
+	<folder>images</folder>
 	<filename>15.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\pis\rangrang-ML\workspace\color_detection\tmp\15.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\color_detection\images\15.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,30 +11,6 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>putih</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2712</xmin>
-			<ymin>1246</ymin>
-			<xmax>3264</xmax>
-			<ymax>1650</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>putih</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2710</xmin>
-			<ymin>1244</ymin>
-			<xmax>3262</xmax>
-			<ymax>1648</ymax>
-		</bndbox>
-	</object>
 	<object>
 		<name>putih</name>
 		<pose>Unspecified</pose>
@@ -69,6 +45,18 @@
 			<ymin>1751</ymin>
 			<xmax>5399</xmax>
 			<ymax>2043</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>putih</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2107</xmin>
+			<ymin>2816</ymin>
+			<xmax>3928</xmax>
+			<ymax>3628</ymax>
 		</bndbox>
 	</object>
 </annotation>

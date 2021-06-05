@@ -1,3 +1,16 @@
+"""
+Convert saved_model tensorflow to tflite
+
+Usage :
+  python convert_tflite.py -m [SAVED-MODEL PATH] [PARAMS]
+
+Parameters:
+  -m : Path to 'saved_model' folder
+  -o : Pathlike to export tflite model
+
+RangRang - Machine Learning - 2021
+"""
+
 import argparse
 import tensorflow as tf
 
@@ -17,7 +30,7 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser(description="Convert saved_model tensorflow to tflite")
   parser.add_argument("-m", 
                       "--model_dir",
-                      help="Directory to 'saved_model' folder",
+                      help="Path to 'saved_model' folder",
                       type=str)
   parser.add_argument("-o", 
                       "--export",

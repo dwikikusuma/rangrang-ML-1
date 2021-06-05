@@ -1,7 +1,7 @@
 <annotation>
-	<folder>tmp</folder>
+	<folder>images</folder>
 	<filename>19.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\pis\rangrang-ML\workspace\color_detection\tmp\19.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\color_detection\images\19.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -38,13 +38,37 @@
 	<object>
 		<name>biru</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3</xmin>
-			<ymin>923</ymin>
-			<xmax>1000</xmax>
-			<ymax>1074</ymax>
+			<xmin>5</xmin>
+			<ymin>908</ymin>
+			<xmax>999</xmax>
+			<ymax>1056</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>putih</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>532</xmin>
+			<ymin>1041</ymin>
+			<xmax>624</xmax>
+			<ymax>1117</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hijau</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>242</xmin>
+			<ymin>994</ymin>
+			<xmax>299</xmax>
+			<ymax>1086</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>11.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\pis\rangrang-ML\workspace\color_detection\images\11.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\color_detection\images\11.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1600</xmin>
-			<ymin>1463</ymin>
-			<xmax>1900</xmax>
-			<ymax>1746</ymax>
+			<xmin>1557</xmin>
+			<ymin>1451</ymin>
+			<xmax>1914</xmax>
+			<ymax>1781</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2375</xmin>
-			<ymin>1634</ymin>
-			<xmax>2675</xmax>
-			<ymax>1917</ymax>
+			<xmin>2323</xmin>
+			<ymin>1591</ymin>
+			<xmax>2702</xmax>
+			<ymax>1981</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -45,6 +45,78 @@
 			<ymin>1390</ymin>
 			<xmax>1640</xmax>
 			<ymax>1677</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>coklat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>499</xmin>
+			<ymin>1923</ymin>
+			<xmax>2060</xmax>
+			<ymax>2951</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>putih</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1169</xmin>
+			<ymin>2017</ymin>
+			<xmax>1293</xmax>
+			<ymax>2172</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>putih</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3599</xmin>
+			<ymin>1326</ymin>
+			<xmax>3963</xmax>
+			<ymax>1669</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>merah</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3590</xmin>
+			<ymin>1657</ymin>
+			<xmax>3932</xmax>
+			<ymax>1878</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>putih</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1193</xmin>
+			<ymin>1117</ymin>
+			<xmax>1396</xmax>
+			<ymax>1308</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>merah</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1208</xmin>
+			<ymin>1317</ymin>
+			<xmax>1390</xmax>
+			<ymax>1387</ymax>
 		</bndbox>
 	</object>
 </annotation>

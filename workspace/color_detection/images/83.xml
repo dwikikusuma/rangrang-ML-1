@@ -1,7 +1,7 @@
 <annotation>
-	<folder>tmp</folder>
+	<folder>images</folder>
 	<filename>83.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\pis\rangrang-ML\workspace\color_detection\tmp\83.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\color_detection\images\83.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -72,7 +72,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>hiaju</name>
+		<name>hijau</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

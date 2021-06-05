@@ -1,7 +1,7 @@
 <annotation>
-	<folder>tmp</folder>
+	<folder>images</folder>
 	<filename>28.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\pis\rangrang-ML\workspace\color_detection\tmp\28.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\color_detection\images\28.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -66,9 +66,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>522</xmin>
-			<ymin>638</ymin>
+			<ymin>631</ymin>
 			<xmax>770</xmax>
-			<ymax>750</ymax>
+			<ymax>743</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -93,6 +93,78 @@
 			<ymin>339</ymin>
 			<xmax>73</xmax>
 			<ymax>421</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hitam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>502</xmin>
+			<ymin>83</ymin>
+			<xmax>602</xmax>
+			<ymax>222</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hitam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>677</xmin>
+			<ymin>945</ymin>
+			<xmax>721</xmax>
+			<ymax>1004</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hitam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>127</xmin>
+			<ymin>614</ymin>
+			<xmax>465</xmax>
+			<ymax>944</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>putih</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>320</ymin>
+			<xmax>254</xmax>
+			<ymax>386</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hitam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>224</xmin>
+			<ymin>378</ymin>
+			<xmax>258</xmax>
+			<ymax>483</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>putih</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>20</xmin>
+			<ymin>414</ymin>
+			<xmax>67</xmax>
+			<ymax>450</ymax>
 		</bndbox>
 	</object>
 </annotation>

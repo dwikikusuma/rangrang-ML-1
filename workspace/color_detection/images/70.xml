@@ -1,7 +1,7 @@
 <annotation>
-	<folder>tmp</folder>
+	<folder>images</folder>
 	<filename>70.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\pis\rangrang-ML\workspace\color_detection\tmp\70.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\color_detection\images\70.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,9 +29,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>403</xmin>
-			<ymin>412</ymin>
-			<xmax>773</xmax>
+			<xmin>482</xmin>
+			<ymin>415</ymin>
+			<xmax>757</xmax>
 			<ymax>582</ymax>
 		</bndbox>
 	</object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>173</xmin>
-			<ymin>412</ymin>
-			<xmax>480</xmax>
-			<ymax>772</ymax>
+			<xmin>169</xmin>
+			<ymin>409</ymin>
+			<xmax>476</xmax>
+			<ymax>769</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -69,6 +69,42 @@
 			<ymin>466</ymin>
 			<xmax>1599</xmax>
 			<ymax>813</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hitam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1268</xmin>
+			<ymin>257</ymin>
+			<xmax>1335</xmax>
+			<ymax>311</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hitam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1053</xmin>
+			<ymin>383</ymin>
+			<xmax>1102</xmax>
+			<ymax>417</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>coklat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>356</xmin>
+			<ymin>614</ymin>
+			<xmax>755</xmax>
+			<ymax>895</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>tmp</folder>
+	<folder>images</folder>
 	<filename>35.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\pis\rangrang-ML\workspace\color_detection\tmp\35.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\color_detection\images\35.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -72,7 +72,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>hiaju</name>
+		<name>hijau</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -84,7 +84,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>hiaju</name>
+		<name>hijau</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -117,6 +117,30 @@
 			<ymin>282</ymin>
 			<xmax>404</xmax>
 			<ymax>436</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>kuning</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>805</xmin>
+			<ymin>431</ymin>
+			<xmax>887</xmax>
+			<ymax>468</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>biru</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>832</xmin>
+			<ymin>514</ymin>
+			<xmax>867</xmax>
+			<ymax>574</ymax>
 		</bndbox>
 	</object>
 </annotation>

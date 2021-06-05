@@ -1,3 +1,17 @@
+"""
+Script to add metadata to tflite model
+
+Usage :
+    python add_metadata.py -m [PATH TFLITE MODEL] -l [PATH TO LABEL.txt] [PARAMS]
+
+Parameters :
+    -m : Path to tflite model
+    -l : Path to label.txt
+    -o : Pathlike to export tflite model
+
+RangRang - Machine Learning - 2021
+"""
+
 import argparse
 
 from tflite_support.metadata_writers import object_detector

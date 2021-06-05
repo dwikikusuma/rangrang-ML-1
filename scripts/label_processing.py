@@ -1,3 +1,19 @@
+"""
+Script for labeling purposes
+
+Usage :
+    python label_processing.py -d [PATH TO IMAGES FOLDER] [PARAMS]
+
+Parameters:
+    -d : Path to the folder where the images is stored
+    -l : Lower all labels in xml files.
+    -c : Count each label of all the xml files
+    -s : Find images with specific label
+    -lm : Create label_map.pbtxt
+
+RangRang - Machine Learning - 2021
+"""
+
 import os, argparse, glob
 import xml.etree.ElementTree as ET
 
@@ -69,15 +85,15 @@ if __name__ == '__main__':
                         action='store_true')
     parser.add_argument("-c",
                         "--counter",
-                        help="Menghitung jumlah setiap label dari semua xml file.",
+                        help="Count each label of all the xml files",
                         action='store_true')
     parser.add_argument("-s",
                         "--search",
-                        help="Mencari image file yang mengandung label tertentu.",
+                        help="Find images with specific label",
                         type=str)
     parser.add_argument("-lm",
                         "--label_map",
-                        help="Membuat label_map.pbtxt",
+                        help="Create label_map.pbtxt",
                         type=str)
 
     args = parser.parse_args()

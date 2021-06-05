@@ -1,7 +1,20 @@
+"""
+Download image according to the query.json file
+
+Usage :
+    python image_downloader.py [PARAMS - OPTIONAL]
+
+Parameters :
+    -c : Path to executable chromedriver
+
+RangRang - Machine Learning - 2021
+"""
+
 import os, json, argparse
 from google_images_download import google_images_download
 
 def download(arguments):
+    """ Download image files according to query """
     response = google_images_download.googleimagesdownload()
     paths = response.download(arguments)
 

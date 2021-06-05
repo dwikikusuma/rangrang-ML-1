@@ -1,7 +1,7 @@
 <annotation>
-	<folder>tmp</folder>
+	<folder>images</folder>
 	<filename>39.jpg</filename>
-	<path>D:\wiks\rangrang\rangrang-ML\pis\rangrang-ML\workspace\color_detection\tmp\39.jpg</path>
+	<path>C:\Users\Wahyu Setianto\Desktop\rangrang-ML\workspace\color_detection\images\39.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>289</xmin>
-			<ymin>580</ymin>
-			<xmax>536</xmax>
-			<ymax>653</ymax>
+			<xmin>101</xmin>
+			<ymin>573</ymin>
+			<xmax>690</xmax>
+			<ymax>750</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -43,8 +43,8 @@
 		<bndbox>
 			<xmin>312</xmin>
 			<ymin>739</ymin>
-			<xmax>384</xmax>
-			<ymax>808</ymax>
+			<xmax>402</xmax>
+			<ymax>805</ymax>
 		</bndbox>
 	</object>
 </annotation>
