@@ -1,0 +1,49 @@
+item {
+    id: 1
+    name: 'merah'
+}
+
+item {
+    id: 2
+    name: 'biru'
+}
+
+item {
+    id: 3
+    name: 'hijau'
+}
+
+item {
+    id: 4
+    name: 'putih'
+}
+
+item {
+    id: 5
+    name: 'kuning'
+}
+
+item {
+    id: 6
+    name: 'orange'
+}
+
+item {
+    id: 7
+    name: 'pink'
+}
+
+item {
+    id: 8
+    name: 'hitam'
+}
+
+item {
+    id: 9
+    name: 'coklat'
+}
+
+item {
+    id: 10
+    name: 'ungu'
+}
